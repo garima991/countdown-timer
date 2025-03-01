@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: rgb(177, 175, 172);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+input{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.start-btn:hover{
+    background-color: rgb(159, 199, 103);
+}
+
+.pause-btn:hover{
+    background-color: rgb(225, 182, 109);
+}
+
+.reset-btn:hover{
+    background-color: rgb(205, 64, 64);
+}
